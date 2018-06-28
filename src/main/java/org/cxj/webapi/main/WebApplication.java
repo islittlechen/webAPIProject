@@ -32,10 +32,10 @@ public class WebApplication  implements WebMvcConfigurer {
     }
 
 
-    @Bean
-    public LettuceConnectionFactory connectionFactory() {
-        return new LettuceConnectionFactory();
-    }
+//    @Bean
+//    public LettuceConnectionFactory connectionFactory() {
+//        return new LettuceConnectionFactory();
+//    }
 
 
     @Override
